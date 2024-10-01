@@ -1,0 +1,31 @@
+
+.about{
+    @apply flex items-center justify-center bg-dark-2 text-slate-300
+}
+
+img{
+    @apply p-6 max-h-120 
+}
+
+.location{
+    @apply flex items-center gap-1 mt-1 mb-2
+}
+.description{
+    @apply p-6
+}
+
+.title{
+    @apply text-2xl font-bold
+}
+
+.btns{
+    @apply flex items-center gap-1 
+}
+
+.btnRedes{
+    @apply flex items-center gap-2 mr-2 bg-dark-2 border-primary-1 p-1
+}
+
+.mail:hover{
+    @apply bg-primary-3 border-primary-3
+}
