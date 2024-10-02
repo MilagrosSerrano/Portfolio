@@ -35,6 +35,6 @@ a{
     }
 }
 .movileBar{
-    @apply w-1/3 basis-full bg-dark-2 block absolute right-0
+    @apply w-1/2 basis-full bg-dark-2 block absolute right-0
 }
 
