@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 function NavLinks() {
   return (
     <div className="bar">
-      <Link to="about" smooth={true} 
+      <Link to="" smooth={true} 
       duration={1500} className="link">Inicio</Link>
       <Link to="info" smooth={true} 
       duration={1500} className="link">Sobre mí</Link>
