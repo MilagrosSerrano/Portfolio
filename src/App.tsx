@@ -1,12 +1,12 @@
 import './App.css'
-import { NavBar } from './components/nav'
+import { Menu} from './components/nav'
 import { AboutMe } from './components/section'
 
 function App() {
 
   return (
     <>
-      <NavBar></NavBar>
+      <Menu></Menu>
       <AboutMe></AboutMe>
     </>
   )

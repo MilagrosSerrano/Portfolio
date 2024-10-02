@@ -1,6 +1,5 @@
-
 .about{
-    @apply flex items-center justify-center bg-dark-2 text-slate-300
+    @apply flex items-center justify-center bg-dark-2 text-slate-300 max-w-full
 }
 
 img{
@@ -10,8 +9,12 @@ img{
 .location{
     @apply flex items-center gap-1 mt-1 mb-2
 }
+
 .description{
-    @apply p-6
+    @apply flex flex-col p-6
+}
+.links{
+    @apply flex 
 }
 
 .title{
@@ -28,4 +31,49 @@ img{
 
 .mail:hover{
     @apply bg-primary-3 border-primary-3
+}
+
+.cv:hover{
+    @apply opacity-50
+}
+
+.gitHub:hover{
+   fill: rgb(147 51 234);
+}
+
+.linkedin:hover{
+    fill: rgb(37 99 235);
+}
+
+
+@media (max-width: 900px){
+    img{
+        @apply max-h-96
+    }
+}
+
+@media (max-width: 750px){
+    img{
+        @apply max-h-72 p-4
+    }
+}
+@media (max-width: 660px){
+    .about{
+        @apply flex-col
+    }
+    .description{
+        @apply p-4 items-center 
+    }
+    .btns{
+        @apply flex-col p-2 w-60 gap-1
+    }
+    .btnRedes{
+        @apply mr-0
+    }
+    .mail{
+        @apply w-full text-sm
+    }
+    .links{
+        @apply justify-evenly w-full gap-8
+    }
 }

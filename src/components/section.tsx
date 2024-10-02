@@ -11,7 +11,7 @@ const Mail = "serranomilagros23@gmail.com";
 
 export function AboutMe() {
   return (
-    <section className="about">
+    <section className="about -z-10">
       <img src={profilePic} alt="profile" />
       <div className="description">
         <p className="title">¡Hola, soy Milagros! 👋🏻</p>
@@ -27,21 +27,23 @@ export function AboutMe() {
           >
             <TfiEmail /> {Mail}{" "}
           </button>
-          <a href={miCV} download="MilagrosSerrano1.pdf">
-            <button className="btnRedes cv p-2">
-              <CgNotes size={18} color="white" />
-            </button>
-          </a>
-          <a href="https://github.com/MilagrosSerrano">
-            <button className="btnRedes gitHub p-2">
-              <FaGithub size={18} color="white" />
-            </button>
-          </a>
-          <a href="https://www.linkedin.com/in/milagros-serrano-4a49b7307/">
-            <button className="btnRedes linkedin p-2">
-              <FaLinkedin size={18} color="white" />
-            </button>
-          </a>
+          <div className="links">
+            <a href={miCV} download="MilagrosSerrano1.pdf">
+              <button className="btnRedes p-2">
+                <CgNotes className="cv" size={22} color="white" />
+              </button>
+            </a>
+            <a href="https://github.com/MilagrosSerrano">
+              <button className="btnRedes p-2">
+                <FaGithub className="gitHub" size={22} color="white" />
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/milagros-serrano-4a49b7307/">
+              <button className="btnRedes p-2">
+                <FaLinkedin className="linkedin" size={22} color="white" />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -13,7 +13,8 @@ export default {
       'dark-2': '#1d212c',
       'dark-3': '#353842',
       'white': 'rgb(255 255 255)',
-      'slate-300': 'rgb(203 213 225)'
+      'slate-300': 'rgb(203 213 225)',
+      'purple-600': 'rgb(147 51 234)'
     },
     extend: {
       textUnderlineOffset: {
