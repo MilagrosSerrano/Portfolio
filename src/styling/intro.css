@@ -1,5 +1,5 @@
 .about{
-    @apply flex items-center justify-center bg-dark-2 text-slate-300 max-w-full
+    @apply flex items-center justify-center bg-dark-2 text-slate-300 max-w-full pt-8
 }
 
 img{

@@ -1,5 +1,5 @@
 import profilePic from "../assets/profile.jpg";
-import "../styling/section.css";
+import "../styling/intro.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import { CgNotes } from "react-icons/cg";
@@ -9,7 +9,7 @@ import miCV from "../assets/MilagrosSerrano1.pdf";
 
 const Mail = "serranomilagros23@gmail.com";
 
-export function AboutMe() {
+export function Intro() {
   return (
     <section className="about -z-10">
       <img src={profilePic} alt="profile" />

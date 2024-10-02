@@ -1,13 +1,15 @@
 import './App.css'
 import { Menu} from './components/nav'
-import { AboutMe } from './components/section'
+import { Intro } from './components/intro'
+import { AboutMe } from './components/about'
 
 function App() {
-
   return (
     <>
       <Menu></Menu>
+      <Intro></Intro>
       <AboutMe></AboutMe>
+      
     </>
   )
 }

@@ -2,17 +2,23 @@ import "../styling/nav.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function NavLinks() {
   return (
     <div className="bar">
-      <NavLink to="/inicio">Inicio</NavLink>
-      <NavLink to="/about">Sobre mí</NavLink>
-      <NavLink to="/tech">Tecnologías</NavLink>
-      <NavLink to="/proyects">Proyectos</NavLink>
-      <NavLink to="/education">Formación</NavLink>
-      <NavLink to="/links">Contacto</NavLink>
+      <Link to="about" smooth={true} 
+      duration={1500} className="link">Inicio</Link>
+      <Link to="info" smooth={true} 
+      duration={1500} className="link">Sobre mí</Link>
+      <Link to="/tech" className="link" smooth={true} 
+      duration={1500}>Tecnologías</Link>
+      <Link to="/proyects" className="link" smooth={true} 
+      duration={1500}>Proyectos</Link>
+      <Link to="/education" className="link" smooth={true} 
+      duration={1500}>Formación</Link>
+      <Link to="/links" className="link" smooth={true} 
+      duration={1500}>Contacto</Link>
     </div>
   );
 }
@@ -31,7 +37,7 @@ export function Menu() {
           <NavLinks></NavLinks>
         </div>
         <button
-          className="btnToggle bg-dark-3 text-white p-3 "
+          className="btnToggle"
           onClick={toggleMenu}
         >
           {isOpen ? (

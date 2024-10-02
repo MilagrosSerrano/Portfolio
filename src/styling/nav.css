@@ -1,17 +1,28 @@
 .header{
-    @apply bg-dark-3 w-full h-12 flex pr-2 
+    @apply bg-dark-3 w-full h-12 flex 
 }
 
 .bar{
-    @apply bg-dark-3 w-full flex text-white z-40
+    @apply bg-dark-3 w-full flex text-white z-40 gap-3 h-full
 }
 
 .deskBar{
-    @apply flex justify-end items-center sticky top-0 h-12 p-2 gap-3 flex-wrap;
+    @apply flex justify-end items-center sticky top-0 h-12 flex-wrap overflow-hidden mr-8;
 }
 
 a{
-    @apply p-1
+    @apply py-0 px-1 flex items-center h-12
+}
+
+.btnToggle{
+    @apply bg-dark-3 text-white p-3 
+}
+
+.link{
+    border-bottom: 4px solid transparent ;
+}
+.link:hover{
+    @apply cursor-pointer border-b-primary-1 border-b-4
 }
 
 @media ((min-width: 300px) and (max-width: 750px)){
@@ -35,6 +46,6 @@ a{
     }
 }
 .movileBar{
-    @apply w-1/2 basis-full bg-dark-2 block absolute right-0
+    @apply w-1/2 basis-full bg-dark-3 block absolute right-0 h-full
 }
 
