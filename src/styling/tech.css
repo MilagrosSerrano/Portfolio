@@ -1,0 +1,15 @@
+h1, .technologies{
+    @apply bg-dark-2
+}
+
+h1{
+    @apply text-center p-2
+}
+
+.techImg{
+    @apply h-20
+}
+
+.technologies{
+   @apply flex items-center justify-center p-4 flex-nowrap
+}
