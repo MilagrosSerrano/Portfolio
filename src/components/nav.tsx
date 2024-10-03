@@ -39,7 +39,7 @@ export function Menu() {
           Sobre mí
         </Link>
         <Link
-          to="/tech"
+          to="technologies"
           className="link"
           smooth={true}
           duration={1500}
