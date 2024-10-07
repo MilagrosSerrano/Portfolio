@@ -1,0 +1,25 @@
+.proyectsTitle{
+    @apply pt-10
+}
+
+.hrProyects{
+    @apply border border-dark-3 w-2/5
+}
+
+.proyects{
+    @apply bg-dark-2 flex items-center flex-col p-4
+}
+
+.item1,.item2, .item3{
+    @apply border border-dark-3 rounded-2xl p-6 m-6 w-3/4
+}
+
+@media (max-width:770px){
+    .proyectsTitle{
+        @apply py-10
+    }
+
+    .item1,.item2, .item3{
+        @apply m-2 w-5/6
+    }
+}

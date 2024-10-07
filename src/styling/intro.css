@@ -1,8 +1,8 @@
 .about{
-    @apply flex items-center justify-center bg-dark-2 text-slate-300 max-w-full pt-8
+    @apply flex flex-nowrap items-center justify-center bg-dark-2 text-slate-300 pt-8 w-full px-4
 }
 
-img{
+.profileImage{
     @apply p-6 max-h-120 
 }
 
@@ -11,22 +11,26 @@ img{
 }
 
 .description{
-    @apply flex flex-col p-6
+    @apply flex flex-col p-6 
 }
 .links{
-    @apply flex 
+    @apply flex flex-nowrap
+}
+
+.mail{
+    @apply p-4
 }
 
 .title{
-    @apply text-2xl font-bold
+    @apply text-3xl font-bold
 }
 
 .btns{
-    @apply flex items-center gap-1 
+    @apply flex items-center gap-1 flex-nowrap
 }
 
 .btnRedes{
-    @apply flex items-center gap-2 mr-2 bg-dark-2 border-primary-1 p-1
+    @apply flex items-center gap-2 mr-2 bg-dark-2 border-primary-1 px-2 py-1
 }
 
 .mail:hover{
@@ -46,18 +50,15 @@ img{
 }
 
 
-@media (max-width: 900px){
-    img{
-        @apply max-h-96
+@media (max-width: 920px){
+    .profileImage{
+        @apply max-h-96 p-4
+    }
+    .description{
+        @apply p-2 
     }
 }
-
 @media (max-width: 750px){
-    img{
-        @apply max-h-72 p-4
-    }
-}
-@media (max-width: 660px){
     .about{
         @apply flex-col
     }
@@ -69,9 +70,6 @@ img{
     }
     .btnRedes{
         @apply mr-0
-    }
-    .mail{
-        @apply w-full text-sm
     }
     .links{
         @apply justify-evenly w-full gap-8

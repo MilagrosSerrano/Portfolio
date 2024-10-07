@@ -7,9 +7,21 @@ h1{
 }
 
 .techImg{
-    @apply h-20
+    @apply h-20 p-5
 }
 
 .technologies{
    @apply flex items-center justify-center p-4 flex-nowrap
+}
+
+@media (max-width: 500px){
+    .techImg{
+        @apply p-4
+    }
+}
+
+@media (max-width: 370px){
+    .techImg{
+        @apply p-3
+    }
 }

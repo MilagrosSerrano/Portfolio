@@ -1,0 +1,75 @@
+.container{
+    @apply flex gap-3 flex-nowrap
+}
+
+.proyectType{
+    @apply bg-dark-3 border border-dark-3 rounded-full h-14 w-14 flex items-center justify-center my-1 p-4
+}
+
+.itemInfo{
+    @apply p-2
+}
+
+.subtitle{
+    @apply font-semibold text-lg
+}
+
+.proyectDescription{
+    @apply font-thin text-base
+}
+
+.techBtn{
+    @apply flex pt-4 gap-2
+}
+
+.stack{
+    @apply border border-dark-3 bg-dark-3 flex items-center px-2 py-1 gap-1 rounded-xl text-sm
+} 
+
+.stack:hover{
+    @apply cursor-default
+}
+
+.stackUsed{
+    @apply h-5 
+}
+
+.linksBtn{
+    @apply flex gap-1
+}
+
+.pageLink, .gitLink{
+    @apply w-7 h-10
+}
+
+.pageLink:hover, .gitLink:hover{
+    @apply opacity-50
+}
+
+
+@media (max-width:800px){
+    .container{
+        @apply flex-col gap-1
+    }
+}
+
+@media (max-width:520px){
+    .itemTitle{
+        @apply text-2xl
+    }
+    .itemSubtitle{
+        @apply text-sm
+    }
+    .proyectDescription{
+        @apply text-xs
+    }
+    .stack{
+        @apply text-xs
+    }
+    .stackUsed{
+        @apply h-4
+    }
+    .pageLink, .gitLink{
+        @apply w-6 h-10
+    }
+}

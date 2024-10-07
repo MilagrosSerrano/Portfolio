@@ -48,7 +48,7 @@ export function Menu() {
           Tecnologías
         </Link>
         <Link
-          to="/proyects"
+          to="proyects"
           className="link"
           smooth={true}
           duration={1500}

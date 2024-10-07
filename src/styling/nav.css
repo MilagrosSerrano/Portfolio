@@ -1,5 +1,5 @@
 .header{
-    @apply bg-dark-3 w-full h-12 flex 
+    @apply bg-dark-3 w-full h-12 flex flex-nowrap
 }
 
 .bar{

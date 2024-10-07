@@ -11,8 +11,8 @@ const Mail = "serranomilagros23@gmail.com";
 
 export function Intro() {
   return (
-    <section className="about -z-10">
-      <img src={profilePic} alt="profile" />
+    <section className="about">
+      <img src={profilePic} alt="profile" className="profileImage"/>
       <div className="description">
         <p className="title">¡Hola, soy Milagros! 👋🏻</p>
         <p className="subTitle">Estudiante de Programación Full-Stack</p>
@@ -22,10 +22,10 @@ export function Intro() {
         </p>
         <div className="btns">
           <button
-            className="btnRedes mail bg-primary-2"
+            className="mail btnRedes bg-primary-2"
             onClick={() => (window.location.href = `mailto:${Mail}`)}
           >
-            <TfiEmail /> {Mail}{" "}
+            <TfiEmail size={20} /> {Mail}{" "}
           </button>
           <div className="links">
             <a href={miCV} download="MilagrosSerrano1.pdf">

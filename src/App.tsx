@@ -3,6 +3,7 @@ import { Menu} from './components/nav'
 import { Intro } from './components/intro'
 import { AboutMe } from './components/about'
 import {Tech} from './components/tech'
+import {Proyectos} from './components/proyects'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro></Intro>
       <AboutMe></AboutMe>
       <Tech></Tech>
+      <Proyectos></Proyectos>
     </>
   )
 }
