@@ -1,5 +1,5 @@
 .about{
-    @apply flex flex-nowrap items-center justify-center bg-dark-2 text-slate-300 pt-8 w-full px-4
+    @apply flex flex-nowrap items-center justify-center bg-dark-2 text-slate-300 pt-8 w-full 
 }
 
 .profileImage{

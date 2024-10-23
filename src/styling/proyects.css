@@ -11,7 +11,7 @@
 }
 
 .item1,.item2, .item3{
-    @apply border border-dark-3 rounded-2xl p-6 m-6 w-3/4
+    @apply border border-dark-3 rounded-2xl p-6 m-6 w-2/3
 }
 
 @media (max-width:770px){

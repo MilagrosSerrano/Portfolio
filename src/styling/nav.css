@@ -7,7 +7,7 @@
 }
 
 .deskBar{
-    @apply flex justify-end items-center sticky top-0 h-12 flex-wrap overflow-hidden mr-8;
+    @apply flex justify-end items-center sticky top-0 h-12 flex-wrap overflow-hidden mr-4 ;
 }
 
 a{
